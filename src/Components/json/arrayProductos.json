@@ -1,0 +1,43 @@
+
+[
+    {
+    "id": 1,
+    "nombre": "iPhone 13 Pro Max",
+    "descripcion": "El iPhone más potente hasta la fecha con la mejor cámara y pantalla.",
+    "imagen": "https://cdn-ipoint.waugi.com.ar/22640-large_default/iphone-13-pro-max-512gb-silver.jpg",
+    "precio": 1399.99,
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "nombre": "MacBook Pro",
+    "descripcion": "La mejor herramienta para profesionales y creadores.",
+    "imagen": "https://storecba.com/wp-content/uploads/2020/09/pro-16.jpeg",
+    "precio": 1999.99,
+    "stock": 5
+  },
+  {
+    "id": 3,
+    "nombre": "iPad Air",
+    "descripcion": "La tableta más avanzada con un rendimiento increíble.",
+    "imagen": "https://images.fravega.com/f500/f43c02df50f6f79969409ab02331101e.jpg",
+    "precio": 649.99,
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "nombre": "AirPods Max",
+    "descripcion": "Los auriculares más premium con un sonido excepcional.",
+    "imagen": "https://tecnoselect.com/pub/media/catalog/product/cache/33323691697b683682a920cb116273e9/a/i/airpods-max-space-gray.jpg",
+    "precio": 549.99,
+    "stock": 8
+  },
+  {
+    "id": 5,
+    "nombre": "Apple Watch Series 7",
+    "descripcion": "El reloj inteligente más avanzado del mercado.",
+    "imagen": "https://cdn-ipoint.waugi.com.ar/22816-thickbox_default/apple-watch-series-7-gps-41mm-blue-aluminium-caseabyss-blue-sport-band.jpg",
+    "precio": 399.99,
+    "stock": 15
+  }
+]

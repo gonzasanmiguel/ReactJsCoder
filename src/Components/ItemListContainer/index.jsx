@@ -1,11 +1,37 @@
 import React from "react";
-import Tittle from '../Tittle'
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import arrayProductos from "./json/arrayProductos.json"
+import ItemList from "./ItemList"
 
 
-export const ItemListContainer = () => {
-    return(
-        <Tittle greeting='No hay productos disponibles por el momento'/>
-    );
+
+const ItemListContainer = () => {
+    const [item, setItem] = useState([])
+    const {id} = useParams ();
+
+    useEffect(() => {
+        const  promesa = new Promise((resolve) => {
+             setTimeout(() => {
+                resolve(id ? arrayProductos.filter(item => item.categoria === id) : arrayProductos)
+            }, 2000)
+        });
+
+        promesa.then((data) => {
+            setItem(data)
+
+        })
+    },[id]);
+
+    return (
+        <div className="container">
+            <div className="row">
+                <ItemList item={item} />
+                
+            </div>
+      
+        </div>       
+    )
 }
 
-export default ItemListContainer
+export default ItemListContainer;
